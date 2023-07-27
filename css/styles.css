@@ -10,6 +10,8 @@ body {
   list-style-type: none;
 }
 
+/* Header */
+
 .header-logo {
   color: var(--navyblue, #2e2f42);
   font-family: Raleway;
@@ -54,6 +56,8 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Board */
+
 .board {
   background: var(--navyblue, #2e2f42);
 }
@@ -84,6 +88,8 @@ h1 {
   letter-spacing: 0.04em;
 }
 
+/* Advantages Section */
+
 .advantages-name {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
@@ -106,6 +112,8 @@ h1 {
   letter-spacing: 0.02em;
 }
 
+/* Work Section */
+
 .work-topic {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -118,6 +126,8 @@ h1 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
+/* Hero Section */
 
 .hero {
   background: var(--cloud, #f4f4fd);
@@ -160,6 +170,8 @@ h1 {
   letter-spacing: 0.02em;
 }
 
+/* Footer */
+
 .footer {
   background: var(--navyblue, #2e2f42);
 }
@@ -188,6 +200,67 @@ h1 {
 
 .footer-text {
   color: var(--cloud, #f4f4fd);
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+/* ---------------------------PORTFOLIO------------------- */
+
+/* Filter */
+
+.portfolio-list {
+}
+
+.portfolio-list-item {
+}
+
+.portfolio-list-btn {
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
+}
+
+.portfolio-list-name {
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+
+/* Project Card */
+
+.card {
+}
+
+.card-list {
+}
+
+.card-list-item {
+}
+
+.card-list-name {
+  color: var(--navyblue, #2e2f42);
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+
+.card-list-shawl {
+  color: var(--slate, #434455);
   /* Body */
   font-family: Roboto;
   font-size: 16px;
