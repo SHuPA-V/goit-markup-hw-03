@@ -15,8 +15,8 @@ body {
 /* Header */
 
 .header-logo {
-  color: var(--navyblue, #2e2f42);
-  font-family: "Raleway" sans-serif;
+  color: #4d5ae5;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -25,13 +25,13 @@ body {
   text-transform: uppercase;
 }
 
-.header-logo-blue {
-  color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+.header-logo-studio {
+  color: #2e2f42;
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -45,6 +45,10 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+
+.address {
+  font-style: normal;
 }
 
 .address-list-link {
@@ -64,11 +68,14 @@ body {
   background: var(--navyblue, #2e2f42);
 }
 
+.board-name {
+}
+
 h1 {
   color: var(--white, #fff);
   text-align: center;
   /* Header 1 */
-  font-family: Roboto;
+  font-family: "Roboto" sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -82,7 +89,7 @@ h1 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white, #fff);
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -132,10 +139,11 @@ h1 {
 /* Hero Section */
 
 .hero {
-  background: var(--cloud, #f4f4fd);
+  background: #f4f4fd;
 }
 
 .hero-topic {
+  background-color: #ffffff;
   color: var(--navyblue, #2e2f42);
   text-align: center;
   /* Header 2 */
