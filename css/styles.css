@@ -253,9 +253,6 @@ h1 {
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--cloud, #f4f4fd);
-}
-
-.portfolio-list-name {
   color: var(--iris, #4d5ae5);
   text-align: center;
   /* Button Text */
