@@ -108,7 +108,8 @@ h1 {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--white, #fff);
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
 
 .board-btn:hover,
@@ -260,8 +261,8 @@ h1 {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
-  background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
+  background: #f4f4fd;
+  color: #4d5ae5;
 }
 
 /* Project Card */
