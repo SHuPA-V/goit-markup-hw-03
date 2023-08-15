@@ -275,10 +275,17 @@ h1 {
 .card-list-item {
 }
 
+.portfolio-list-btn:hover,
+.portfolio-list-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
 .card-list-name {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
-  font-family: Roboto;
+  font-family: "Roboto" sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -289,7 +296,7 @@ h1 {
 .card-list-shawl {
   color: var(--slate, #434455);
   /* Body */
-  font-family: Roboto;
+  font-family: "Roboto" sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
