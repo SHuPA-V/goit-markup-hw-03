@@ -282,6 +282,10 @@ h1 {
   cursor: pointer;
 }
 
+.portfolio-list-btn {
+  font-family: "Roboto", sans-serif;
+}
+
 .card-list-name {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
