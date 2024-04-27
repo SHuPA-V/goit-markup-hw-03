@@ -166,6 +166,20 @@ h1 {
 
 /* Advantages Section */
 
+.advantages{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.advantages-list{
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-list-item{
+  width calc((100% - 3 * 24px) / 4);
+}
+
 .advantages-name {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
@@ -175,6 +189,7 @@ h1 {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -190,6 +205,11 @@ h1 {
 
 /* Work Section */
 
+.work{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .work-topic {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -201,16 +221,24 @@ h1 {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.work-list{
+  display: flex;
+  gap: 24px;
 }
 
 /* Hero Section */
 
 .hero {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-topic {
-  background-color: #ffffff;
+  background-color: #F4F4FD;
   color: var(--navyblue, #2e2f42);
   text-align: center;
   /* Header 2 */
@@ -221,10 +249,18 @@ h1 {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.hero-list{
+  display: flex;
+  gap: 24px;
 }
 
 .hero-list-item {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .hero-name {
