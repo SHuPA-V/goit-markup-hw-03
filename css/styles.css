@@ -35,6 +35,18 @@ p,h1,h2,h3,h4,h5,h6 {
 
 /* Header */
 
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-wrap{
+  display: flex;
+}
+
+.header-navigation{
+  display: flex;
+}
+
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -44,6 +56,7 @@ p,h1,h2,h3,h4,h5,h6 {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px
 }
 
 .header-logo-studio {
@@ -55,6 +68,10 @@ p,h1,h2,h3,h4,h5,h6 {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header-menu-list{
+  display: flex;
 }
 
 .header-link {
@@ -75,6 +92,10 @@ p,h1,h2,h3,h4,h5,h6 {
 
 .address {
   font-style: normal;
+}
+
+.address-list{
+  display: flex;
 }
 
 .address-list-link {
@@ -223,6 +244,9 @@ h1 {
 
 .footer {
   background: var(--navyblue, #2e2f42);
+  display: inline-block;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -234,6 +258,7 @@ h1 {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
