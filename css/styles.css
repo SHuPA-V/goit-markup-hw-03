@@ -183,6 +183,8 @@ h1 {
 
 .advantages-list-item{
   width: calc((100% - 3 * 24px) / 4);
+  margin: 0; 
+  padding-left: 0;
 }
 
 .advantages-name {
