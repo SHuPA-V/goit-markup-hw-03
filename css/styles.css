@@ -76,10 +76,6 @@ p,h1,h2,h3,h4,h5,h6 {
   gap: 40px;
 }
 
-.header-menu-item{
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 
 .header-link {
   color: var(--navyblue, #2e2f42);
@@ -90,6 +86,8 @@ p,h1,h2,h3,h4,h5,h6 {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:hover,
@@ -215,25 +213,6 @@ h1 {
 .work{
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.work-topic {
-  color: var(--navyblue, #2e2f42);
-  text-align: center;
-  /* Header 2 */
-  font-family: Roboto;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-
-.work-list{
-  display: flex;
-  gap: 24px;
 }
 
 /* Hero Section */
